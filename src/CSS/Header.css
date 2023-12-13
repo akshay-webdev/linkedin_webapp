@@ -1,21 +1,17 @@
-*{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  transition: 0.4s;
-}
-
 body {
     height: 100vh;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 50px;
-    border-bottom: 1px solid #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 100px;
+  border-bottom: 1px solid #f9f9f9;
+  height: 35px;
+}
+.logo h2{
+  margin: 0;
 }
 
 .logo svg {
@@ -32,7 +28,6 @@ header {
 
 .mainmenu svg {
     height: 20px;
-    fill: rgba(0,0,0,0.5);
 }
 
 .mainmenu, ul {
@@ -147,7 +142,6 @@ a {
 
 section {
     display: flex;
-    height: calc(100vh - 73px);
     position: relative;
 }
 

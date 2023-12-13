@@ -1,24 +1,19 @@
-import './App.css';
-import Header from "./components/Header"
-import './CSS/Header.css'
+import "./App.css";
+import Feed from "./components/Feed";
+import Header from "./components/Header";
+import Sidebar from "./components/Sidebar";
+import "./CSS/Header.css";
 function App() {
   return (
-   <>
-  
-    <Header/>
-      {/* <section class="hero">
-        <div class="left-section">
-          <h1>Welcome to your<br/>professional community</h1>
-          <input type="text" name="input" placeholder="Email or phone number"/>
-          <input type="password" name="pass" placeholder="Password"/>
-          <a href="#">Forgot password?</a>
-          <input class="mainbtn" type="button" value="Sign in"/>
+    <>
+       <Header />
+      <section className="app_body">
+        <div className="container" style={{display:'flex'}}>
+          <Sidebar />
+          <Feed/>
         </div>
-        <div class="right-section">
-          
-        </div>
-      </section> */}
-   </>
+      </section>
+    </>
   );
 }
 

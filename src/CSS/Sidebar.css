@@ -1,0 +1,106 @@
+.sidebar{
+    width: 20%;
+}
+.profile_sec{
+    padding:0 1.2rem 1.6rem
+}
+.sidebar img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.profile_sec .sidebar__avatar{
+    position: relative;
+    top: 14px;
+    height: 72px !important;
+    width: 72px !important;
+    /* border: 1px solid lightgrey; */
+    border-radius: 50%;
+}
+
+.sidebar .sidebar__top{
+    text-align: center;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background: #fff;
+}
+.MuiAvatar-colorDefault{
+    position: relative;
+    top: -21px;
+    margin: auto;
+}
+.sidebar__top h2{
+    font-size: 14px;
+    margin: 0;
+    font-weight: 600;
+}
+.sidebar__top h4{
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    margin-top: 6px;
+}
+.sidebar_stats{
+    display: block;
+    justify-content: left;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    padding-top: 19.2px;
+    padding-bottom: 19.2px;
+}
+.sidebar_stats div{
+    display: flex;
+    padding: 0.4rem 1.2rem;
+}
+.sidebar_stats div:first-child{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.sidebar_stats p{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.sidebar_stats p:not(:first-child){
+    margin-left: auto;
+    color: #0a66c2;
+
+}
+.recent__widget{
+    margin-top: 16px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 16px;
+}
+.recent__widget h6{
+    font-size: 16px;
+    margin: 0;
+    font-weight: 600;
+    padding: 10px 10px 6px 10px;
+}
+.recent__widget .sidebar_recentItem{
+    display: flex;
+    align-items: center;
+    padding: 6px 22px 0px 22px;
+}
+.recent__widget .sidebar_recentItem:last-child{
+padding-bottom: 22px;
+}
+.recent__widget .sidebar_recentItem:nth-child(1){
+    padding-top: 0;
+}
+
+.recent__widget .sidebar_recentItem span{
+    padding-right: 10px;
+}
+.recent__widget .sidebar_recentItem p,span{
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
