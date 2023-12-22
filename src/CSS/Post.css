@@ -1,0 +1,44 @@
+.post{
+    background: #fff;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius:8px;
+}
+.post__header .MuiAvatar-root {
+    top: 0;
+    margin: 0;
+}
+.post .post__header{
+    display: flex;
+    align-items: center;
+}
+.post .post__info{
+    margin-left: 10px;
+}
+.post .post__info h2{
+    margin: 0;
+}
+.post .post__info p{
+    margin: 0;
+}
+.post .post__info p{
+    font-size: 12px;
+    color: lightgray;
+}
+.post__buttons{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #ebebeb;
+}
+.post__buttons .search_bar_options{
+    cursor: pointer;
+    margin-top: 10px;
+}
+.post .search_bar_options .search_bar_btns{
+    padding: 6px 14px;   
+}
+.post .search_bar_options .search_bar_btns:hover{
+    background: #ebebeb;
+    border-radius: 8px;
+
+}

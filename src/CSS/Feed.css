@@ -1,42 +1,69 @@
-.feed_section{
-    width: 50%;
+.feed_section {
+  width: 50%;
+  margin: 0px 20px;
 }
-.feed_searchbar{
-    border: 1px solid lightgray;
-    padding: 10px 10px 10px 10px;
-    background: #fff;
-    border-radius: 8px;
+.feed_searchbar {
+  border: 1px solid lightgray;
+  padding: 10px 10px 10px 10px;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
-.feed_searchbar .post_sec{
+.feed_searchbar .post_sec {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.search_input {
+  height: 30px;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid lightgray;
+  padding: 6px 16px;
+  margin-left: 16px;
+}
+.post_sec .MuiAvatar-colorDefault {
+  position: relative;
+  top: 0;
+  margin: 0;
+}
+.search_bar_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.search_bar_btns button {
+  color: #828282;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  display: flex;
+  align-items: center;
+}
+.search_bar_btns .MuiSvgIcon-root {
+  padding-right: 8px;
+}
+.photo{
+    fill: red;
+}
+.search_bar_options{
     display: flex;
     align-items: center;
-    padding-bottom: 16px;
 }
-.search_input{
-    height: 30px;
-    width: 100%;
-    border-radius: 30px;
-    border: 1px solid lightgray;
-    padding: 6px 16px;
-    margin-left: 16px;
-
-}
-.post_sec .MuiAvatar-colorDefault{
-    position: relative;
-    top: 0;
+.search_bar_btns p{
     margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b5afaf;
 }
-.search_bar_btns{
+.search_bar_btns div{
     display: flex;
     align-items: center;
 }
-.search_bar_btns button{
-    color: #828282;
-    font-size: 12px;
-    font-weight: 500;
-    margin: 0;
-    border: 0;
-    background: transparent;
+.header_options{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
